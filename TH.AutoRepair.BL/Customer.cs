@@ -8,5 +8,12 @@
 
         public List<Vehicle> Vehicles { get; set; } = new List<Vehicle>();
 
+        public override string ToString()
+        {
+            //return FirstName + " " + LastName;
+            //return base.ToString();
+            //return LastName + ", " + FirstName;
+            return $"{FirstName} {LastName}";
+        }
     }
 }
